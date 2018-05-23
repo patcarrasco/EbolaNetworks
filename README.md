@@ -46,36 +46,7 @@ AOV: F = 102.8, p <.001, means of case numbers statistically different
 
 ![capture](https://user-images.githubusercontent.com/39533889/40403971-2c581348-5e23-11e8-8d79-62c6942c737a.PNG)\
 Shapiro-Wilks: W = 0.95509, p-value = 0.7287\
-AOV: F = 95.55, p < 0.001, means of deats statistically different
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+AOV: F = 95.55, p < 0.001, means of deahts statistically different
 
 
 
