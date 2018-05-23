@@ -9,7 +9,7 @@ Note: This project uses a smallworld network to simulate the spread of ebolaviru
 The blue line is the average number of cases present at each time step
 #### Example of death data obtained from 100 simulations of control parameters
 ![image](https://user-images.githubusercontent.com/39533889/40403931-ffd06e24-5e22-11e8-839e-d8ec9308718c.png)\
-The blue line is the average number of deaths at each time step 
+The blue line is the average number of deaths at each time step.  
 
 ## Testing a range of Case Fatality Rates
 ![image](https://user-images.githubusercontent.com/39533889/40403942-0bb6c77e-5e23-11e8-9ff7-3057ddf694e4.png)\
