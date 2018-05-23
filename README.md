@@ -72,7 +72,7 @@ AOV: F = 95.55, p < 0.001, means of deahts statistically different
 - Amount of health workers effect on transmission
 
 ### Model Description
-- Model is here run to 100 timesteps [recommended to run to completion, can do this with a while loop, however this may take > 1 day to run]
+- Model is here run to 100 timesteps (It is recommended to run to completion, and this can be done with a while loop. However this may cause model to take > 3 hours to run each tested parameter)
 - 100 iterations are done for each tested parameter
 
 #### 1. Doctor Movements
