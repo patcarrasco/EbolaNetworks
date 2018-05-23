@@ -22,7 +22,7 @@ This project uses a smallworld network to simulate the spread of ebolavirus thro
 - Amount of health workers effect on transmission
 
 ### Model Description
-- Model is here run to 100 timesteps [recommended to run to completion]
+- Model is here run to 100 timesteps [recommended to run to completion, can do this with a while loop]
 - 100 iterations are done for each tested parameter
 
 #### 1. Doctor Movements
