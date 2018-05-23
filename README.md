@@ -2,6 +2,85 @@
 
 This project uses a smallworld network to simulate the spread of ebolavirus through a small community. 
 
+## Results
+
+### Example of one simulation of a community at time step 1
+![image](https://user-images.githubusercontent.com/39533889/40403915-f0dbe588-5e22-11e8-9ea7-708de69096f0.png)
+### Example of case data obtained from 100 simulations of control parameters
+![image](https://user-images.githubusercontent.com/39533889/40403927-fd6db8bc-5e22-11e8-9e5b-c65e897f8d18.png)
+### Example of death data obtained from 100 simulations of control parameters
+![image](https://user-images.githubusercontent.com/39533889/40403931-ffd06e24-5e22-11e8-839e-d8ec9308718c.png)
+
+### Testing a range of Case Fatality Rates
+![image](https://user-images.githubusercontent.com/39533889/40403942-0bb6c77e-5e23-11e8-9ff7-3057ddf694e4.png)\
+Normally distributed, W = 0.92105, p-value = 0.4385\
+AOV: F = 3.904, p = 0.0956, No statistical  difference
+
+![image](https://user-images.githubusercontent.com/39533889/40403944-0e972920-5e23-11e8-80e4-517f488dfdba.png)\
+Normally distributed : W = 0.97896, p-value = 0.9576\
+AOV: F = 0.125, p = 0.736, No statistical difference
+##### This is result is interesting. One would expect a higher case fatality rate resulting in a higher amount of deaths. This could be due to higher CFR rates being detrimental to viral success. A higher death rate could decrease the chances the virus has to infect another individual.
+
+### Changing amount of treatment available in the community
+![image](https://user-images.githubusercontent.com/39533889/40403948-1382bcf6-5e23-11e8-8be1-4916b890e3d3.png)\
+Normally Distributed: W = 0.93463, p-value = 0.4949\
+AOV:  F = 0.469, p = 0.513, No statistical difference
+
+![image](https://user-images.githubusercontent.com/39533889/40403954-17ada822-5e23-11e8-9d16-b00a7a944c83.png)\
+Normally distributed :W = 0.97536, p-value = 0.9356\
+AOV: F = 0.358  p = 0.566, No statistical difference
+
+### Testing a range of infection rates from corpses
+![image](https://user-images.githubusercontent.com/39533889/40403959-1d71b0fa-5e23-11e8-9749-8b85da05792f.png)\
+Shapiro-wilks: W = 0.93404, p-value = 0.4888\
+AOV: F = 380.9, p < 0.001, means of case numbers statistically different
+
+![image](https://user-images.githubusercontent.com/39533889/40403963-221bca1e-5e23-11e8-9217-cce369af9519.png)\
+Shapiro-Wilks: W = 0.93291, p-value = 0.4771\
+AOV: F = 349.1, p < 0.001, means of deaths statistically different
+
+### Testing a range of infection rates from live hosts
+![image](https://user-images.githubusercontent.com/39533889/40403967-261f2836-5e23-11e8-8085-95b588753a2b.png)\
+Shapiro-wilks: W = 0.9631, p-value = 0.8206\
+AOV: F = 102.8, p <.001, means of case numbers statistically different
+
+![capture](https://user-images.githubusercontent.com/39533889/40403971-2c581348-5e23-11e8-8d79-62c6942c737a.PNG)\
+Shapiro-Wilks: W = 0.95509, p-value = 0.7287\
+AOV: F = 95.55, p < 0.001, means of deats statistically different
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Model information
+
 ### The default parameters for this model are as follows:
 - Population = 1000
 - Timesteps = 100
