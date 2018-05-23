@@ -19,7 +19,7 @@ AOV: F = 3.904, p = 0.0956, No statistical  difference
 ![image](https://user-images.githubusercontent.com/39533889/40403944-0e972920-5e23-11e8-80e4-517f488dfdba.png)\
 Normally distributed : W = 0.97896, p-value = 0.9576\
 AOV: F = 0.125, p = 0.736, No statistical difference
-##### This is result is interesting. One would expect a higher case fatality rate resulting in a higher amount of deaths. This could be due to higher CFR rates being detrimental to viral success. A higher death rate could decrease the chances the virus has to infect another individual.
+##### This is result is interesting. One could expect a higher case fatality rate resulting in a higher amount of deaths. However, this lack of difference could be due to higher CFR rates being detrimental to viral success. A higher death rate could decrease the chances the virus has to infect another individual.
 
 ## Changing amount of treatment available in the community
 ![image](https://user-images.githubusercontent.com/39533889/40403948-1382bcf6-5e23-11e8-8be1-4916b890e3d3.png)\
