@@ -1,12 +1,7 @@
 library(igraph)
-library(reshape2)
-library(ggplot2)
 library(tidyverse)
-library(dict)
-library(hexbin)
 library(gam)
 library(ggthemes)
-library(quantreg)
 
 # set seed if wanting to comapre against common data...
 # set.seed(9999)
