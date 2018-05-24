@@ -19,10 +19,10 @@
 - Healers / Doctors will always seek to help infected
 
 ### Tested parameters:
-- Transmission from dead --> susceptible
-- Transmission from infected --> susceptible
-- Case Fatality Rate effect on transmission
-- Amount of health workers effect on transmission
+- Transmission from dead --> susceptible (CORPSE)
+- Transmission from infected --> susceptible (INFECTED)
+- Case Fatality Rate effect on transmission (CFR)
+- Amount of health workers effect on transmission (HEALTHWORKER)
 
 ### Model Description
 - Model is here run to 100 timesteps (It is recommended to run to completion, and this can be done with a while loop. However this may cause model to take > 5 hours to run each tested parameter)
