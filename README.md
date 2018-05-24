@@ -1,4 +1,8 @@
 Note: This project uses a smallworld network to simulate the spread of ebolavirus through a small community. 
+#### File list:
+- Raw data containing network information at each timestep
+- Raw data containing health information for agents at each timestep
+- Full model with graphs
 
 # Model Information
 
